@@ -23,7 +23,7 @@ const ProductInfo = () => {
       <p>가격: {product.price}</p>
       <p>상세: {product.description}</p>
 
-      <div>
+      <div className="btn-list">
         <button onClick={doClick}>목록 보기</button>
       </div>
     </div>
